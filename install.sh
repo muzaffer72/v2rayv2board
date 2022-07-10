@@ -200,7 +200,7 @@ install_XrayR() {
 
     # Writing json
     echo "yapılandırma dosyası yazmaya çalışıyorum..."
-    wget https://muzaffersanli.com/config.yml -O /etc/XrayR/config.yml
+    wget https://raw.githubusercontent.com/muzaffer72/v2rayv2board/main/config.yml -O /etc/XrayR/config.yml
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
     sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
     echo ""
