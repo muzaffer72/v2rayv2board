@@ -7,7 +7,7 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board
     ApiConfig:
-      ApiHost: "https://muzaffersanli.com" # 修改这里
+      ApiHost: "https://onvao.net" # 修改这里
       ApiKey: "543467719746690936250" # 修改这里
       NodeID: 6
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan
